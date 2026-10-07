@@ -104,6 +104,16 @@ AI 漫剧（用 AI 生成的漫剧/短剧视频）通常一集几十个镜头，
 **Q：小说里的修仙大场面怎么转成 AI 漫剧提示词？**
 先拆事件：这一段里真正发生了几件事（到达、对峙、出手……），每件事至少给一个镜头；再按三步法逐镜写。完整流程参考[小说转分镜与 AI 漫剧工具链指南](https://www.geogrow.cloud/guides/ai-short-drama-toolchain?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill)。
 
+## 仓库结构
+
+```
+SKILL.md                                   # Claude 技能入口：触发场景、三步方法、输出合同、自查清单
+prompt.md                                  # 通用模板，可粘贴给任意大模型
+references/scene-composition-principles.md # 方法背后的公开构图理论对照
+examples/                                  # 两个原创逐镜示范（含构图解析与错误对照）
+evals/checklist.md                         # 质量评估用例：5 个输入特征与通过标准
+```
+
 ## 用这份模板
 
 - 直接复制 [prompt.md](prompt.md) 给任意 AI（ChatGPT / Claude / 豆包 / Kimi 均可）；
