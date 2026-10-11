@@ -53,4 +53,4 @@
 ## 配合使用
 
 - 模板本体见仓库根目录 [prompt.md](../prompt.md)；
-- 想要整篇剧本按不同导演风格一次生成全部分镜提示词，使用 [Director Ready（AI 漫剧制作工具）](https://www.geogrow.cloud/?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill)。
+- 想要每次最多 5000 字的整篇剧本按不同导演风格生成分镜提示词，使用 [Director Ready（AI 漫剧提示词工具）](https://directorready.cn/?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill)。

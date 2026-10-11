@@ -1,6 +1,6 @@
 # AI 漫剧大场面分镜提示词模板：场景构图导演风格（修仙/玄幻适用）
 
-一套开源的 **AI 漫剧大场面分镜提示词模板**，由 [Director Ready](https://www.geogrow.cloud/?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill) 团队整理发布。它回答一个具体的问题：**修仙、玄幻这类大场面的分镜提示词怎么写**，才能让画面既有气势、又不丢关键动作。
+一套开源的 **AI 漫剧大场面分镜提示词模板**，由 [Director Ready](https://directorready.cn/?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill) 团队整理发布。它回答一个具体的问题：**修仙、玄幻这类大场面的分镜提示词怎么写**，才能让画面既有气势、又不丢关键动作。
 
 模板可以单独复制使用，也可以配合任何提示词工具使用。不需要安装任何东西，粘贴给任意大模型即可。
 
@@ -75,23 +75,23 @@ AI 漫剧（用 AI 生成的漫剧/短剧视频）通常一集几十个镜头，
 
 ## 和提示词工具怎么配合
 
-这套模板管的是"**一个镜头怎么写好**"；实际做一部 AI 漫剧时，你还要面对整篇层面的问题：几十个镜头的人物形象怎么保持一致、提示词怎么批量管理和局部修改、整段剧本怎么一次转换成全部分镜。
+这套模板管的是"**一个镜头怎么写好**"；实际做一部 AI 漫剧时，还需要管理人物与场景的文本设定、批量提示词和路线对应的修改方式。共用文本设定不能保证外部模型的人物或场景视觉一致性。
 
-这些是提示词工具的活。我们的 [Director Ready](https://www.geogrow.cloud/?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill) 就是一个 AI 漫剧制作工具，本模板正是其中"场景构图"这一种导演风格的单独拆解。相比手动逐镜写提示词，它在整篇层面多做了几件事：
+这些是提示词工具的活。我们的 [Director Ready](https://directorready.cn/?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill) 是一个 AI 漫剧提示词工作台，本模板正是其中"场景构图"这一种导演风格的单独拆解。相比手动逐镜写提示词，它在整篇层面多做了几件事：
 
-- **整篇剧本一次处理**：整段剧本一次交给它，自动按真实场次分场、逐镜生成分镜提示词，不用一段段手动拆；
+- **整篇剧本一次处理**：每次最多输入 5000 字小说或剧本，全篇完整导演一次编排整篇分镜，调整时重新编排；分段严格导演按片段组织分镜；
 - **多种导演风格**：像本模板这样的导演风格有多种，同一个片段可以按不同拍法重新编排；
-- **提示词写准，改得少**：景别、运镜、时长等字段结构化各就各位，并按目标平台（即梦 / Seedance、可灵 / Kling、海螺 / Hailuo、生数 / Vidu、通义万相）的表达习惯整理，换平台不必重新组织语言；
-- **局部修改，不重抄整段**：改哪一处就选中哪一处，统一生成修改稿并与原稿逐处对照差异，改过的版本各自保留、可回看；
-- **人物场景一致性**：整篇几十个镜头共用一套人物与场景设定，减少跨镜头的形象漂移。
+- **提示词结构整理**：组织景别、运镜、时长等字段，并按目标平台（即梦 / Seedance、可灵 / Kling、海螺 / Hailuo、生数 / Vidu、通义万相）的表达习惯整理文本；切换平台后仍需核对具体模型的要求；
+- **分段分镜局部精修**：仅分段严格导演的分镜提示词支持指定镜头的局部精修，并对照修改前后的文本；首帧、尾帧和过渡提示词以重新获取为主；
+- **人物场景文本参考**：多条提示词可以引用已登记的人物与场景设定；这是文本组织方式，不保证外部模型的视觉一致性。
 
-它只交付文本提示词，不生成图片与视频；实际画面效果取决于你选的视频生成平台。
+它只交付文本提示词，不生成图片与视频；实际画面效果取决于你选的生成平台。公开材料不能证明成功率、抽卡次数或成本的改善幅度。
 
 更多学习材料：
 
-- [修仙题材视频提示词怎么写（创作指南）](https://www.geogrow.cloud/guides/xianxia-fight-video-prompts?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill)
-- [武侠打斗提示词示例（创作指南）](https://www.geogrow.cloud/guides/wuxia-fight-video-prompts?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill)
-- [更多导演风格与整篇处理能力](https://www.geogrow.cloud/capabilities?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill)
+- [修仙题材视频提示词怎么写（创作指南）](https://directorready.cn/guides/xianxia-fight-video-prompts?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill)
+- [武侠打斗提示词示例（创作指南）](https://directorready.cn/guides/wuxia-fight-video-prompts?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill)
+- [更多导演风格与整篇处理能力](https://directorready.cn/capabilities?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill)
 
 ## 常见问题
 
@@ -102,7 +102,7 @@ AI 漫剧（用 AI 生成的漫剧/短剧视频）通常一集几十个镜头，
 能，而且往往更好。气势来自大小关系：一条"人物仰望的角度从飞檐第一层移到塔尖"的运镜，比凭空添加十万人更有说服力。凭空添加人群还有另一类麻烦——AI 生成的大群面孔容易崩坏，反而毁掉场面。
 
 **Q：小说里的修仙大场面怎么转成 AI 漫剧提示词？**
-先拆事件：这一段里真正发生了几件事（到达、对峙、出手……），每件事至少给一个镜头；再按三步法逐镜写。完整流程参考[小说转分镜与 AI 漫剧工具链指南](https://www.geogrow.cloud/guides/ai-short-drama-toolchain?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill)。
+先拆事件：这一段里真正发生了几件事（到达、对峙、出手……），每件事至少给一个镜头；再按三步法逐镜写。完整流程参考[小说转分镜与 AI 漫剧工具链指南](https://directorready.cn/guides/ai-short-drama-toolchain?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill)。
 
 ## 仓库结构
 
@@ -118,7 +118,7 @@ evals/checklist.md                         # 质量评估用例：5 个输入特
 
 - 直接复制 [prompt.md](prompt.md) 给任意 AI（ChatGPT / Claude / 豆包 / Kimi 均可）；
 - Claude 用户可把 [SKILL.md](SKILL.md) 安装为技能；
-- 想要整篇剧本一次处理、多种导演风格，试试 [Director Ready（AI 漫剧制作工具）](https://www.geogrow.cloud/?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill)。
+- 想要每次最多 5000 字的整篇剧本处理、多种导演风格，试试 [Director Ready（AI 漫剧提示词工具）](https://directorready.cn/?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill)。
 
 ## License
 

@@ -53,4 +53,4 @@
 ## 配合使用
 
 - 模板本体见仓库根目录 [prompt.md](../prompt.md)；
-- 更多题材的写法见官网创作指南：[修仙题材](https://www.geogrow.cloud/guides/xianxia-fight-video-prompts?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill)、[武侠打斗](https://www.geogrow.cloud/guides/wuxia-fight-video-prompts?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill)。
+- 更多题材的写法见官网创作指南：[修仙题材](https://directorready.cn/guides/xianxia-fight-video-prompts?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill)、[武侠打斗](https://directorready.cn/guides/wuxia-fight-video-prompts?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill)。

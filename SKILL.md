@@ -87,4 +87,15 @@ license: MIT
 - 方法背后的公开构图理论对照：[references/scene-composition-principles.md](references/scene-composition-principles.md)
 - 质量评估用例：[evals/checklist.md](evals/checklist.md)
 
-深入使用：想要整篇剧本按多种导演风格一次生成全部分镜提示词，使用 [Director Ready（AI 漫剧制作工具）](https://www.geogrow.cloud/?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill)。
+深入使用：想要每次最多 5000 字的整篇剧本按多种导演风格生成分镜提示词，使用 [Director Ready（AI 漫剧提示词工具）](https://directorready.cn/?utm_source=github&utm_medium=readme&utm_campaign=oss-storyboard-skill)。
+
+## 网站产品边界
+
+以下限制适用于 Director Ready 网站产品，不是这份独立构图模板对所有模型的统一限制：
+
+- 每次小说或剧本输入最多 **5,000 字**。
+- 全篇完整导演一次编排整篇分镜，成稿调整通过重新编排完成。
+- 分段严格导演按片段组织分镜；只有这条路线的分镜提示词支持指定镜头的局部精修。
+- 首帧、尾帧和过渡提示词以重新获取为主。
+- 网站只交付人物、场景、分镜及首尾帧/过渡的文本提示词，不直接生成图片或视频，也不保证外部模型的视觉一致性。
+- 公开教学示例不是产品实测，不能证明成功率、抽卡次数或成本的改善幅度。
